@@ -1,7 +1,7 @@
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, Award, GraduationCap, Book } from "lucide-react";
+import { Briefcase, Award, GraduationCap, Book, Code } from "lucide-react";
 
 const ExperienceSection = () => {
   return (
