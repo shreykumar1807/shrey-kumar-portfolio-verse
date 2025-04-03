@@ -64,7 +64,7 @@ const HeroSection = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-accent/20 rounded-full blur-2xl"></div>
             <img
-              src="/lovable-uploads/0c1c3923-6ef9-4f0b-a265-801d5878a61b.png"
+              src="/lovable-uploads/6034de30-92eb-4988-b091-cfa5a7a3f355.png"
               alt="Shrey Kumar"
               className="relative z-10 rounded-full border-4 border-primary/20 shadow-xl animate-fade-in"
               style={{ animationDelay: "1000ms" }}
