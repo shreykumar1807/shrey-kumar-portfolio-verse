@@ -8,6 +8,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ChatbotBubble from "@/components/ChatbotBubble";
 
 const Index = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const Index = () => {
           <ContactSection />
         </main>
         <Footer />
+        <ChatbotBubble />
       </div>
     </ThemeProvider>
   );
