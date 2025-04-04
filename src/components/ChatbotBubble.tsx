@@ -12,11 +12,11 @@ const ChatbotBubble = () => {
     // Initialize the chatbot script
     (function() {
       if (!window.chatbase || window.chatbase("getState") !== "initialized") {
-        window.chatbase = (...arguments: any[]) => {
+        window.chatbase = (...args: any[]) => {
           if (!window.chatbase.q) {
             window.chatbase.q = [];
           }
-          window.chatbase.q.push(arguments);
+          window.chatbase.q.push(args);
         };
         window.chatbase = new Proxy(window.chatbase, {
           get(target: any, prop: string) {
